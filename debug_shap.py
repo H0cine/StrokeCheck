@@ -4,7 +4,7 @@ import shap
 import numpy as np
 
 # Load model
-model = joblib.load("/home/hocine/Documents/brain_stroke_web/WEB_stroke_random_forest_model_WEB.joblib")
+model = joblib.load("WEB_stroke_random_forest_model_WEB.joblib")
 
 # Test data
 args = [65, 200, 30, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1]

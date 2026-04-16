@@ -1,6 +1,6 @@
+flask
+gunicorn
 pandas
-numpy
 joblib
+numpy
 shap
-google-generativeai
-scikit-learn
